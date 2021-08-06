@@ -12,7 +12,7 @@
   <title value="USA-CFI FHIR Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-08-06T20:48:25+00:00"/>
+  <date value="2021-08-06T21:26:00+00:00"/>
   <publisher value="University of San Agustin - Center for Informatics"/>
   <contact>
     <telecom>
@@ -216,6 +216,16 @@
       </reference>
       <name value="Patient Encounter Logical Model"/>
       <description value="Logical model describing a basic patient encounter/consultation workflow generally implemented by the EMR/MRS technologies supported"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ObservationVitalsSignsVS"/>
+      </reference>
+      <name value="Observation vital signs component"/>
+      <description value="Vital signs data usually collected"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
