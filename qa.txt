@@ -1,12 +1,13 @@
 ﻿USACFIIG : Validation Results
 =========================================
 
-err = 1, warn = 1, info = 0
+err = 1, warn = 3, info = 0
 IG Publisher Version: 1.1.77
-Generated Fri Aug 06 20:48:31 UTC 2021. FHIR version 4.0.1 for usacfi-fhir#0.1.0-test (canonical = http://fhir.usacfi.net)
+Generated Fri Aug 06 21:26:22 UTC 2021. FHIR version 4.0.1 for usacfi-fhir#0.1.0-test (canonical = http://fhir.usacfi.net)
 
- Build Errors : 13 / 0 / 0
+ Build Errors : 18 / 0 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-PatientEncounterModel : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ObservationVitalsSignsVS : 0 / 2 / 1
  /github/workspace/input/usacfi-ig : 0 / 0 / 1
 </table>
 == n/a ==
@@ -18,7 +19,12 @@ ERROR: /github/workspace/output/StructureDefinition-PatientEncounterModel.profil
 ERROR: /github/workspace/output/StructureDefinition-PatientEncounterModel.profile.json.html#/html/body/div/div/div/p/a at Line 739, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-PatientEncounterModel.profile.ttl.html#/html/body/div/div/div/p/a at Line 660, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-PatientEncounterModel.profile.xml.html#/html/body/div/div/div/p/a at Line 675, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 225, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-ObservationVitalsSignsVS.change.history.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-ObservationVitalsSignsVS.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-ObservationVitalsSignsVS.json.html#/html/body/div/div/div/p/a at Line 316, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-ObservationVitalsSignsVS.ttl.html#/html/body/div/div/div/p/a at Line 313, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-ObservationVitalsSignsVS.xml.html#/html/body/div/div/div/p/a at Line 304, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
 ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 225, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
 ERROR: /github/workspace/output/intro.html#/html/body/div/div/div/p/a at Line 212, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
@@ -26,4 +32,7 @@ ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 188,
 == /github/workspace/fsh-generated/resources/StructureDefinition-PatientEncounterModel.json ==
 ERROR: StructureDefinition/PatientEncounterModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
 WARNING: StructureDefinition/PatientEncounterModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== /github/workspace/fsh-generated/resources/ValueSet-ObservationVitalsSignsVS.json ==
+WARNING: ValueSet/ObservationVitalsSignsVS: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'ObservationVitalsSignsVS'): Error from server: Unable to provide support for code system https://loinc.org
 == /github/workspace/input/usacfi-ig.xml ==

@@ -12,5 +12,12 @@
     "url": "http://fhir.usacfi.net/StructureDefinition/PatientEncounterModel",
     "version": "0.1.0-test",
     "name": "PatientEncounterModel"
+  },
+  {
+    "id": "ObservationVitalsSignsVS",
+    "type": "ValueSet",
+    "url": "http://fhir.usacfi.net/ValueSet/ObservationVitalsSignsVS",
+    "version": "0.1.0-test",
+    "name": "ObservationVitalsSignsVS"
   }
 ]
