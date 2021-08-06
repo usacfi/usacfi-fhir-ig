@@ -1,29 +1,29 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxexample.fhir.uv.myig",
+  "id": "usacfi-fhir",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>USACFIIG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.usacfi.net/ImplementationGuide/usacfi-fhir</pre><div><p>Draft of the FHIR Implementation Guide for the FHIR instance hosted by the University of San Agustin - Center for Informatics</p>\n</div></div>"
   },
-  "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+  "url": "http://fhir.usacfi.net/ImplementationGuide/usacfi-fhir",
   "version": "0.1.0-test",
-  "name": "XXYourComputableMyIGNameHere",
-  "title": "xxYour User Friendly Name for MyIG Here",
+  "name": "USACFIIG",
+  "title": "USA-CFI FHIR Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-08-06T18:37:59+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2021-08-06T19:02:06+00:00",
+  "publisher": "University of San Agustin - Center for Informatics",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "http://xxhl7.org/Special/committees/[something]"
+          "value": "usacfi.net/contact-us.html"
         }
       ]
     }
   ],
-  "description": "xxxA brief description of what this IG is about ",
+  "description": "Draft of the FHIR Implementation Guide for the FHIR instance hosted by the University of San Agustin - Center for Informatics",
   "jurisdiction": [
     {
       "coding": [
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "packageId": "xxexample.fhir.uv.myig",
+  "packageId": "usacfi-fhir",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -192,7 +192,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://xxsomewhere.org/fhir/myig/history.html"
+            "valueString": "http://fhir.usacfi.net/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -335,7 +335,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "MyIG Home Page",
+          "title": "IG Home",
           "generation": "html"
         },
         {
