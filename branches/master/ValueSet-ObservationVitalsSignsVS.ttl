@@ -17,14 +17,14 @@
   fhir:ValueSet.name [ fhir:value "ObservationVitalsSignsVS"];
   fhir:ValueSet.title [ fhir:value "Observation vital signs component"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-08-06T21:26:00+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-08-06T22:01:02+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "University of San Agustin - Center for Informatics"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "usacfi.net/contact-us.html" ]
+       fhir:ContactPoint.value [ fhir:value "https://usacfi.net/contact-us.html" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "Vital signs data usually collected"];

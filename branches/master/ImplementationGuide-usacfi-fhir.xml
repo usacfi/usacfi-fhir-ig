@@ -12,12 +12,12 @@
   <title value="USA-CFI FHIR Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-08-06T21:26:00+00:00"/>
+  <date value="2021-08-06T22:01:02+00:00"/>
   <publisher value="University of San Agustin - Center for Informatics"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="usacfi.net/contact-us.html"/>
+      <value value="https://usacfi.net/contact-us.html"/>
     </telecom>
   </contact>
   <description value="Draft of the FHIR Implementation Guide for the FHIR instance hosted by the University of San Agustin - Center for Informatics"/>
