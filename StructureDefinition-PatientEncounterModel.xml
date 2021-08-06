@@ -23,12 +23,12 @@
   <name value="PatientEncounterModel"/>
   <title value="Patient Encounter Logical Model"/>
   <status value="active"/>
-  <date value="2021-08-06T21:26:00+00:00"/>
+  <date value="2021-08-06T22:01:02+00:00"/>
   <publisher value="University of San Agustin - Center for Informatics"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="usacfi.net/contact-us.html"/>
+      <value value="https://usacfi.net/contact-us.html"/>
     </telecom>
   </contact>
   <description value="Logical model describing a basic patient encounter/consultation workflow generally implemented by the EMR/MRS technologies supported"/>

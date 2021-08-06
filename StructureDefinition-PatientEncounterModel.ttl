@@ -17,14 +17,14 @@
   fhir:StructureDefinition.name [ fhir:value "PatientEncounterModel"];
   fhir:StructureDefinition.title [ fhir:value "Patient Encounter Logical Model"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-08-06T21:26:00+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-08-06T22:01:02+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "University of San Agustin - Center for Informatics"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "usacfi.net/contact-us.html" ]
+       fhir:ContactPoint.value [ fhir:value "https://usacfi.net/contact-us.html" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "Logical model describing a basic patient encounter/consultation workflow generally implemented by the EMR/MRS technologies supported"];
