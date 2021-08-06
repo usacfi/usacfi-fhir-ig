@@ -11,7 +11,7 @@
   "title": "USA-CFI FHIR Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-08-06T20:01:22+00:00",
+  "date": "2021-08-06T20:42:22+00:00",
   "publisher": "University of San Agustin - Center for Informatics",
   "contact": [
     {
@@ -337,6 +337,11 @@
           "nameUrl": "index.html",
           "title": "IG Home",
           "generation": "html"
+        },
+        {
+          "nameUrl": "intro.html",
+          "title": "Introduction to the USA-CFI FHIR Implementation Guide",
+          "generation": "markdown"
         },
         {
           "nameUrl": "changes.html",
