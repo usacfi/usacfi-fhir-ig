@@ -51,6 +51,11 @@
         <title value="IG Home"/>
         <generation value="html"/>
       </page>
+      <page>
+        <nameUrl value="intro.html"/>
+        <title value="Introduction to the USA-CFI FHIR Implementation Guide"/>
+        <generation value="markdown"/>
+      </page>
     <!-- change history page -->
       <page>
         <nameUrl value="changes.html"/>
