@@ -1,0 +1,16 @@
+Logical: PatientEncounterModel
+Title: "Patient Encounter Logical Model"
+Description: "Logical model describing a basic patient encounter/consultation workflow generally implemented by the EMR/MRS technologies supported"
+
+* patient 1..1 Reference "The subject of the medical consultation" "The subject of the medical consultation"
+* provider 1..1 Reference "The provider handling the patient" "The provider handling the patient"
+* encounter 0..* BackboneElement "Recording of the consultation" "Recording of the consultation event which includes complaints of the patient, the practioner handling the encounter, the observations, the diagnoses, the treatment plan, and the outcome of the consultation"
+  * dateOfEncounter 1..1 dateTime "Date of consultation" "Date of consultation"
+  * purposeOfEncounter 1..1 CodeableConcept "Purpose of consultation" "Purpose of consultation (e.g. check-up, follow-up, new health issue)"
+  * complaints 0..* CodeableConcept "Issues and complaints from the patient" "Issues and complaints reported by the patient"
+  * observations 0..* CodeableConcept "Procedures performed by the provider for assessment" "Procedures performed by the provider to assess and diagnose the issue. Values typically selected from LOINC codes"
+  * diagnosis 0..* CodeableConcept "Diagnosis of the issue" "Diagnosis of the issue. Values typically selected from SNOMED CT or ICD-10 codes"
+  * treatmentPlan 0..1 string "Treatment plan to resolve issue" "Treatment plan to resolve issue"
+  * medicationInstruction 0..1 string "Medications prescribed by the provider" "Medications prescribed by the provider"
+  * outcomeOfEncounter 0..1 CodeableConcept "Outcome of the consultation" "Describes whether the treatment was a success or not"
+  * notes 0..1 string "Additional notes or comments" "Additional notes or comments"
