@@ -1,13 +1,17 @@
-﻿XXYourComputableMyIGNameHere : Validation Results
+﻿USACFIIG : Validation Results
 =========================================
 
 err = 1, warn = 0, info = 0
 IG Publisher Version: 1.1.77
-Generated Fri Aug 06 18:38:02 UTC 2021. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Fri Aug 06 19:02:10 UTC 2021. FHIR version 4.0.1 for usacfi-fhir#0.1.0-test (canonical = http://fhir.usacfi.net)
 
- Build Errors : 0 / 0 / 0
- /github/workspace/input/myig : 1 / 0 / 1
+ Build Errors : 4 / 0 / 0
+ /github/workspace/input/usacfi-ig : 1 / 0 / 1
 </table>
 == n/a ==
-== /github/workspace/input/myig.xml ==
-ERROR: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 225, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 188, column 28: The link 'usacfi.net/contact-us.html' for "University of San Agustin - Center for Informatics" cannot be resolved
+== /github/workspace/input/usacfi-ig.xml ==
+ERROR: ImplementationGuide/usacfi-fhir: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
