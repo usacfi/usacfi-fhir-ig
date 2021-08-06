@@ -17,7 +17,7 @@
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="usacfi.net/contact-us.html"/>
+      <value value="https://usacfi.net/contact-us.html"/>
     </telecom>
   </contact>
   <description value="Draft of the FHIR Implementation Guide for the FHIR instance hosted by the University of San Agustin - Center for Informatics"/>
