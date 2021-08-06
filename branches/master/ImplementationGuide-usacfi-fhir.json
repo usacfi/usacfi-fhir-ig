@@ -11,7 +11,7 @@
   "title": "USA-CFI FHIR Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-08-06T20:42:22+00:00",
+  "date": "2021-08-06T20:48:25+00:00",
   "publisher": "University of San Agustin - Center for Informatics",
   "contact": [
     {
@@ -326,6 +326,21 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PatientEncounterModel"
+        },
+        "name": "Patient Encounter Logical Model",
+        "description": "Logical model describing a basic patient encounter/consultation workflow generally implemented by the EMR/MRS technologies supported"
       }
     ],
     "page": {
