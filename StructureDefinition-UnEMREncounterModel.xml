@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="UnEMREncounterModel"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel" title="Encounter data model implemented in UnEMR">UnEMREncounterModel</a><a name="UnEMREncounterModel"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">UnEMR Encounter Logical Model</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.encounterId" title="Identifier for this encounter">encounterId</a><a name="UnEMREncounterModel.encounterId"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#id">id</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Identifier for this encounter</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.typeOfEncounter" title="Type of medical consultation (e.g. outpatient, inpatient, emergency)">typeOfEncounter</a><a name="UnEMREncounterModel.typeOfEncounter"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type of consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.purposeOfEncounter" title="Purpose of the consultation (e.g. check-up, follow-up, new health issue)">purposeOfEncounter</a><a name="UnEMREncounterModel.purposeOfEncounter"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Purpose of consulration</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.dateOfEncounter" title="Date of the consultation">dateOfEncounter</a><a name="UnEMREncounterModel.dateOfEncounter"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of the consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.patient" title="Reference to the target patient">patient</a><a name="UnEMREncounterModel.patient"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Reference to the patient</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.provider" title="Provider who is involved with this patient consultation">provider</a><a name="UnEMREncounterModel.provider"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Reference to the provider</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.age" title="Age of the patient during the consultation">age</a><a name="UnEMREncounterModel.age"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Age of the patient on consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.complaints" title="Issues identified by the patient. Values are selected from SNOMED-CT or ICD-10">complaints</a><a name="UnEMREncounterModel.complaints"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Issues identified by the patient<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems" title="Review of systems">reviewOfSystems</a><a name="UnEMREncounterModel.reviewOfSystems"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Review of systems</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.neurologic" title="Review of the neurologic system">neurologic</a><a name="UnEMREncounterModel.reviewOfSystems.neurologic"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Review of the neurologic system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.pulmonary" title="Review of the pulmonary system">pulmonary</a><a name="UnEMREncounterModel.reviewOfSystems.pulmonary"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Review of the pulmonary system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.cardiovascular" title="Review of the cardiovascular system">cardiovascular</a><a name="UnEMREncounterModel.reviewOfSystems.cardiovascular"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Review of the cardiovascular system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.skinAndGlands" title="Review of the skin and glands">skinAndGlands</a><a name="UnEMREncounterModel.reviewOfSystems.skinAndGlands"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Review of the skin and glands</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.gastrointestinal" title="Review of the gastrointestinal system">gastrointestinal</a><a name="UnEMREncounterModel.reviewOfSystems.gastrointestinal"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Review of the gastrointestinal system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.muscoloskeletal" title="Review of the muscoloskeletal system">muscoloskeletal</a><a name="UnEMREncounterModel.reviewOfSystems.muscoloskeletal"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Review of the muscoloskeletal system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.psychiatric" title="Psychiatric review">psychiatric</a><a name="UnEMREncounterModel.reviewOfSystems.psychiatric"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Psychiatric review</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.gcs" title="Glascow coma scale scoring">gcs</a><a name="UnEMREncounterModel.reviewOfSystems.gcs"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Glascow coma scale scoring</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse" title="Eye response GCS scoring">eyeResponse</a><a name="UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Eye response GCS scoring</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse" title="Verbal response GCS scoring">verbalResponse</a><a name="UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Verbal response GCS scoring</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.reviewOfSystems.gcs.motorResponse" title="Motor response GCS scoring">motorResponse</a><a name="UnEMREncounterModel.reviewOfSystems.gcs.motorResponse"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Motor response GCS scoring</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals" title="Patient vital signs">vitals</a><a name="UnEMREncounterModel.vitals"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient vital signs</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals.temperature" title="Patient temperature during consultation">temperature</a><a name="UnEMREncounterModel.vitals.temperature"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient temperature during consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals.bloodPressure" title="Patient blood pressure during consultation">bloodPressure</a><a name="UnEMREncounterModel.vitals.bloodPressure"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient blood pressure during consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals.pulseRate" title="Patient pulse rate during consultation">pulseRate</a><a name="UnEMREncounterModel.vitals.pulseRate"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient pulse rate during consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals.oxygenation" title="Patient blood oxygenation levels during consultation">oxygenation</a><a name="UnEMREncounterModel.vitals.oxygenation"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient blood oxygenation levels during consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals.respirationRate" title="Patient respiration rate during consultation">respirationRate</a><a name="UnEMREncounterModel.vitals.respirationRate"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient respiration rate during consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals.height" title="Patient height during consultation">height</a><a name="UnEMREncounterModel.vitals.height"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient height during consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals.weight" title="Patient weight during consultation">weight</a><a name="UnEMREncounterModel.vitals.weight"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient weight during consultation</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.vitals.bmi" title="Patient body mass index">bmi</a><a name="UnEMREncounterModel.vitals.bmi"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient body mass index</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam" title="Patient physical examination results">physicalExam</a><a name="UnEMREncounterModel.physicalExam"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient physical examination results</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.heent" title="HEENT physical examination results">heent</a><a name="UnEMREncounterModel.physicalExam.heent"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">HEENT physical examination results</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.cardiovascular" title="Physical examination results on the patient's cardiovascular system">cardiovascular</a><a name="UnEMREncounterModel.physicalExam.cardiovascular"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient cardiovascular system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.pulmonary" title="Physical examination results on the patient's pulmonary system">pulmonary</a><a name="UnEMREncounterModel.physicalExam.pulmonary"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient pulmonary system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.gastrointestinal" title="Physical examination results on the patient's gastrointestinal system">gastrointestinal</a><a name="UnEMREncounterModel.physicalExam.gastrointestinal"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient gastrointestinal system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.reproductive" title="Physical examination results on the patient's reproductive system">reproductive</a><a name="UnEMREncounterModel.physicalExam.reproductive"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient reproductive system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.extremities" title="Physical examination results on the patient's extremities">extremities</a><a name="UnEMREncounterModel.physicalExam.extremities"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient extremities</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.skin" title="Physical examination results on the patient's skin">skin</a><a name="UnEMREncounterModel.physicalExam.skin"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient skin</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.genitourinary" title="Physical examination results on the patient's genitourinary system">genitourinary</a><a name="UnEMREncounterModel.physicalExam.genitourinary"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient genitourinary system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.nervous" title="Physical examination results on the patient's nervous system">nervous</a><a name="UnEMREncounterModel.physicalExam.nervous"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient nervous system</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse" title="Patient mental state examination">mse</a><a name="UnEMREncounterModel.physicalExam.mse"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient mental state examination</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse.motor" title="Patient mental motor state results">motor</a><a name="UnEMREncounterModel.physicalExam.mse.motor"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient mental motor state results</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse.speech" title="Patient speech">speech</a><a name="UnEMREncounterModel.physicalExam.mse.speech"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient speech</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse.affect" title="Patient mental affect">affect</a><a name="UnEMREncounterModel.physicalExam.mse.affect"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient mental affect</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse.thoughtContent" title="Patient thought content">thoughtContent</a><a name="UnEMREncounterModel.physicalExam.mse.thoughtContent"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient thought content</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse.thoughtProcess" title="Patient thought process">thoughtProcess</a><a name="UnEMREncounterModel.physicalExam.mse.thoughtProcess"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient thought process</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse.perception" title="Patient perception">perception</a><a name="UnEMREncounterModel.physicalExam.mse.perception"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient perception</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse.intellect" title="Patient intellectual">intellect</a><a name="UnEMREncounterModel.physicalExam.mse.intellect"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient intellectual</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.physicalExam.mse.insight" title="Patient insight">insight</a><a name="UnEMREncounterModel.physicalExam.mse.insight"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient insight</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.confidentialNotes" title="Additional confidential or phychiatric-medicolegal notes">confidentialNotes</a><a name="UnEMREncounterModel.confidentialNotes"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Additional confidential or phychiatric-medicolegal notes</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.procedures" title="Patient treatment plan and procedures. Values may be selected from SNOMED-CT">procedures</a><a name="UnEMREncounterModel.procedures"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient treatment plan and procedures<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.prescriptions" title="Medication prescribed by the provider to the patient. Values may be selected from SNOMED-CT">prescriptions</a><a name="UnEMREncounterModel.prescriptions"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Medication prescribed by the provider to the patient<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.outcomeOfTreatment" title="Describes whether the treatment was successful or not. Options are either positive, negative, or no change">outcomeOfTreatment</a><a name="UnEMREncounterModel.outcomeOfTreatment"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Describes whether the treatment was successful or not</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.auditLog" title="Record audit log">auditLog</a><a name="UnEMREncounterModel.auditLog"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Record audit log</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.auditLog.createdBy" title="Person who created the encounter record">createdBy</a><a name="UnEMREncounterModel.auditLog.createdBy"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Person who created the record</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.auditLog.dateCreated" title="Date when the encounter record was created">dateCreated</a><a name="UnEMREncounterModel.auditLog.dateCreated"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date when the encounter record was created</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.auditLog.lastUpdatedBy" title="Person who recently updated the record">lastUpdatedBy</a><a name="UnEMREncounterModel.auditLog.lastUpdatedBy"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Person who recently updated the record</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-UnEMREncounterModel-definitions.html#UnEMREncounterModel.auditLog.dateLastUpdated" title="Date when the encounter record last updated">dateLastUpdated</a><a name="UnEMREncounterModel.auditLog.dateLastUpdated"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date when the encounter record last updated</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="http://fhir.usacfi.net/StructureDefinition/UnEMREncounterModel"/>
+  <version value="0.1.0-test"/>
+  <name value="UnEMREncounterModel"/>
+  <title value="UnEMR Encounter Logical Model"/>
+  <status value="active"/>
+  <date value="2021-08-07T00:05:05+00:00"/>
+  <publisher value="University of San Agustin - Center for Informatics"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://usacfi.net/contact-us.html"/>
+    </telecom>
+  </contact>
+  <description value="Encounter data model implemented in UnEMR"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <fhirVersion value="4.0.1"/>
+  <mapping>
+    <identity value="rim"/>
+    <uri value="http://hl7.org/v3"/>
+    <name value="RIM Mapping"/>
+  </mapping>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://fhir.usacfi.net/StructureDefinition/UnEMREncounterModel"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <element id="UnEMREncounterModel">
+      <path value="UnEMREncounterModel"/>
+      <short value="UnEMR Encounter Logical Model"/>
+      <definition value="Encounter data model implemented in UnEMR"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="UnEMREncounterModel.encounterId">
+      <path value="UnEMREncounterModel.encounterId"/>
+      <short value="Identifier for this encounter"/>
+      <definition value="Identifier for this encounter"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.encounterId"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="id"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.typeOfEncounter">
+      <path value="UnEMREncounterModel.typeOfEncounter"/>
+      <short value="Type of consultation"/>
+      <definition value="Type of medical consultation (e.g. outpatient, inpatient, emergency)"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.typeOfEncounter"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.purposeOfEncounter">
+      <path value="UnEMREncounterModel.purposeOfEncounter"/>
+      <short value="Purpose of consulration"/>
+      <definition value="Purpose of the consultation (e.g. check-up, follow-up, new health issue)"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.purposeOfEncounter"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.dateOfEncounter">
+      <path value="UnEMREncounterModel.dateOfEncounter"/>
+      <short value="Date of the consultation"/>
+      <definition value="Date of the consultation"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.dateOfEncounter"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.patient">
+      <path value="UnEMREncounterModel.patient"/>
+      <short value="Reference to the patient"/>
+      <definition value="Reference to the target patient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.patient"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.provider">
+      <path value="UnEMREncounterModel.provider"/>
+      <short value="Reference to the provider"/>
+      <definition value="Provider who is involved with this patient consultation"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.provider"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.age">
+      <path value="UnEMREncounterModel.age"/>
+      <short value="Age of the patient on consultation"/>
+      <definition value="Age of the patient during the consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.age"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.complaints">
+      <path value="UnEMREncounterModel.complaints"/>
+      <short value="Issues identified by the patient"/>
+      <definition value="Issues identified by the patient. Values are selected from SNOMED-CT or ICD-10"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="UnEMREncounterModel.complaints"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems">
+      <path value="UnEMREncounterModel.reviewOfSystems"/>
+      <short value="Review of systems"/>
+      <definition value="Review of systems"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.neurologic">
+      <path value="UnEMREncounterModel.reviewOfSystems.neurologic"/>
+      <short value="Review of the neurologic system"/>
+      <definition value="Review of the neurologic system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.neurologic"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.pulmonary">
+      <path value="UnEMREncounterModel.reviewOfSystems.pulmonary"/>
+      <short value="Review of the pulmonary system"/>
+      <definition value="Review of the pulmonary system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.pulmonary"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.cardiovascular">
+      <path value="UnEMREncounterModel.reviewOfSystems.cardiovascular"/>
+      <short value="Review of the cardiovascular system"/>
+      <definition value="Review of the cardiovascular system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.cardiovascular"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.skinAndGlands">
+      <path value="UnEMREncounterModel.reviewOfSystems.skinAndGlands"/>
+      <short value="Review of the skin and glands"/>
+      <definition value="Review of the skin and glands"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.skinAndGlands"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gastrointestinal">
+      <path value="UnEMREncounterModel.reviewOfSystems.gastrointestinal"/>
+      <short value="Review of the gastrointestinal system"/>
+      <definition value="Review of the gastrointestinal system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.gastrointestinal"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.muscoloskeletal">
+      <path value="UnEMREncounterModel.reviewOfSystems.muscoloskeletal"/>
+      <short value="Review of the muscoloskeletal system"/>
+      <definition value="Review of the muscoloskeletal system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.muscoloskeletal"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.psychiatric">
+      <path value="UnEMREncounterModel.reviewOfSystems.psychiatric"/>
+      <short value="Psychiatric review"/>
+      <definition value="Psychiatric review"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.psychiatric"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gcs">
+      <path value="UnEMREncounterModel.reviewOfSystems.gcs"/>
+      <short value="Glascow coma scale scoring"/>
+      <definition value="Glascow coma scale scoring"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.gcs"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse">
+      <path value="UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse"/>
+      <short value="Eye response GCS scoring"/>
+      <definition value="Eye response GCS scoring"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse">
+      <path value="UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse"/>
+      <short value="Verbal response GCS scoring"/>
+      <definition value="Verbal response GCS scoring"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gcs.motorResponse">
+      <path value="UnEMREncounterModel.reviewOfSystems.gcs.motorResponse"/>
+      <short value="Motor response GCS scoring"/>
+      <definition value="Motor response GCS scoring"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.reviewOfSystems.gcs.motorResponse"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals">
+      <path value="UnEMREncounterModel.vitals"/>
+      <short value="Patient vital signs"/>
+      <definition value="Patient vital signs"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.temperature">
+      <path value="UnEMREncounterModel.vitals.temperature"/>
+      <short value="Patient temperature during consultation"/>
+      <definition value="Patient temperature during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals.temperature"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.bloodPressure">
+      <path value="UnEMREncounterModel.vitals.bloodPressure"/>
+      <short value="Patient blood pressure during consultation"/>
+      <definition value="Patient blood pressure during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals.bloodPressure"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.pulseRate">
+      <path value="UnEMREncounterModel.vitals.pulseRate"/>
+      <short value="Patient pulse rate during consultation"/>
+      <definition value="Patient pulse rate during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals.pulseRate"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.oxygenation">
+      <path value="UnEMREncounterModel.vitals.oxygenation"/>
+      <short value="Patient blood oxygenation levels during consultation"/>
+      <definition value="Patient blood oxygenation levels during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals.oxygenation"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.respirationRate">
+      <path value="UnEMREncounterModel.vitals.respirationRate"/>
+      <short value="Patient respiration rate during consultation"/>
+      <definition value="Patient respiration rate during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals.respirationRate"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.height">
+      <path value="UnEMREncounterModel.vitals.height"/>
+      <short value="Patient height during consultation"/>
+      <definition value="Patient height during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals.height"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.weight">
+      <path value="UnEMREncounterModel.vitals.weight"/>
+      <short value="Patient weight during consultation"/>
+      <definition value="Patient weight during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals.weight"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.bmi">
+      <path value="UnEMREncounterModel.vitals.bmi"/>
+      <short value="Patient body mass index"/>
+      <definition value="Patient body mass index"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.vitals.bmi"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam">
+      <path value="UnEMREncounterModel.physicalExam"/>
+      <short value="Patient physical examination results"/>
+      <definition value="Patient physical examination results"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.heent">
+      <path value="UnEMREncounterModel.physicalExam.heent"/>
+      <short value="HEENT physical examination results"/>
+      <definition value="HEENT physical examination results"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.heent"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.cardiovascular">
+      <path value="UnEMREncounterModel.physicalExam.cardiovascular"/>
+      <short value="Patient cardiovascular system"/>
+      <definition value="Physical examination results on the patient&#39;s cardiovascular system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.cardiovascular"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.pulmonary">
+      <path value="UnEMREncounterModel.physicalExam.pulmonary"/>
+      <short value="Patient pulmonary system"/>
+      <definition value="Physical examination results on the patient&#39;s pulmonary system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.pulmonary"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.gastrointestinal">
+      <path value="UnEMREncounterModel.physicalExam.gastrointestinal"/>
+      <short value="Patient gastrointestinal system"/>
+      <definition value="Physical examination results on the patient&#39;s gastrointestinal system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.gastrointestinal"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.reproductive">
+      <path value="UnEMREncounterModel.physicalExam.reproductive"/>
+      <short value="Patient reproductive system"/>
+      <definition value="Physical examination results on the patient&#39;s reproductive system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.reproductive"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.extremities">
+      <path value="UnEMREncounterModel.physicalExam.extremities"/>
+      <short value="Patient extremities"/>
+      <definition value="Physical examination results on the patient&#39;s extremities"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.extremities"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.skin">
+      <path value="UnEMREncounterModel.physicalExam.skin"/>
+      <short value="Patient skin"/>
+      <definition value="Physical examination results on the patient&#39;s skin"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.skin"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.genitourinary">
+      <path value="UnEMREncounterModel.physicalExam.genitourinary"/>
+      <short value="Patient genitourinary system"/>
+      <definition value="Physical examination results on the patient&#39;s genitourinary system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.genitourinary"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.nervous">
+      <path value="UnEMREncounterModel.physicalExam.nervous"/>
+      <short value="Patient nervous system"/>
+      <definition value="Physical examination results on the patient&#39;s nervous system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.nervous"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse">
+      <path value="UnEMREncounterModel.physicalExam.mse"/>
+      <short value="Patient mental state examination"/>
+      <definition value="Patient mental state examination"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.motor">
+      <path value="UnEMREncounterModel.physicalExam.mse.motor"/>
+      <short value="Patient mental motor state results"/>
+      <definition value="Patient mental motor state results"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse.motor"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.speech">
+      <path value="UnEMREncounterModel.physicalExam.mse.speech"/>
+      <short value="Patient speech"/>
+      <definition value="Patient speech"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse.speech"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.affect">
+      <path value="UnEMREncounterModel.physicalExam.mse.affect"/>
+      <short value="Patient mental affect"/>
+      <definition value="Patient mental affect"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse.affect"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.thoughtContent">
+      <path value="UnEMREncounterModel.physicalExam.mse.thoughtContent"/>
+      <short value="Patient thought content"/>
+      <definition value="Patient thought content"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse.thoughtContent"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.thoughtProcess">
+      <path value="UnEMREncounterModel.physicalExam.mse.thoughtProcess"/>
+      <short value="Patient thought process"/>
+      <definition value="Patient thought process"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse.thoughtProcess"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.perception">
+      <path value="UnEMREncounterModel.physicalExam.mse.perception"/>
+      <short value="Patient perception"/>
+      <definition value="Patient perception"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse.perception"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.intellect">
+      <path value="UnEMREncounterModel.physicalExam.mse.intellect"/>
+      <short value="Patient intellectual"/>
+      <definition value="Patient intellectual"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse.intellect"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.insight">
+      <path value="UnEMREncounterModel.physicalExam.mse.insight"/>
+      <short value="Patient insight"/>
+      <definition value="Patient insight"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.physicalExam.mse.insight"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.confidentialNotes">
+      <path value="UnEMREncounterModel.confidentialNotes"/>
+      <short value="Additional confidential or phychiatric-medicolegal notes"/>
+      <definition value="Additional confidential or phychiatric-medicolegal notes"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.confidentialNotes"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.procedures">
+      <path value="UnEMREncounterModel.procedures"/>
+      <short value="Patient treatment plan and procedures"/>
+      <definition value="Patient treatment plan and procedures. Values may be selected from SNOMED-CT"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="UnEMREncounterModel.procedures"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.prescriptions">
+      <path value="UnEMREncounterModel.prescriptions"/>
+      <short value="Medication prescribed by the provider to the patient"/>
+      <definition value="Medication prescribed by the provider to the patient. Values may be selected from SNOMED-CT"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="UnEMREncounterModel.prescriptions"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.outcomeOfTreatment">
+      <path value="UnEMREncounterModel.outcomeOfTreatment"/>
+      <short value="Describes whether the treatment was successful or not"/>
+      <definition value="Describes whether the treatment was successful or not. Options are either positive, negative, or no change"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.outcomeOfTreatment"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog">
+      <path value="UnEMREncounterModel.auditLog"/>
+      <short value="Record audit log"/>
+      <definition value="Record audit log"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.auditLog"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog.createdBy">
+      <path value="UnEMREncounterModel.auditLog.createdBy"/>
+      <short value="Person who created the record"/>
+      <definition value="Person who created the encounter record"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.auditLog.createdBy"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog.dateCreated">
+      <path value="UnEMREncounterModel.auditLog.dateCreated"/>
+      <short value="Date when the encounter record was created"/>
+      <definition value="Date when the encounter record was created"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.auditLog.dateCreated"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog.lastUpdatedBy">
+      <path value="UnEMREncounterModel.auditLog.lastUpdatedBy"/>
+      <short value="Person who recently updated the record"/>
+      <definition value="Person who recently updated the record"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.auditLog.lastUpdatedBy"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog.dateLastUpdated">
+      <path value="UnEMREncounterModel.auditLog.dateLastUpdated"/>
+      <short value="Date when the encounter record last updated"/>
+      <definition value="Date when the encounter record last updated"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="UnEMREncounterModel.auditLog.dateLastUpdated"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="UnEMREncounterModel">
+      <path value="UnEMREncounterModel"/>
+      <short value="UnEMR Encounter Logical Model"/>
+      <definition value="Encounter data model implemented in UnEMR"/>
+    </element>
+    <element id="UnEMREncounterModel.encounterId">
+      <path value="UnEMREncounterModel.encounterId"/>
+      <short value="Identifier for this encounter"/>
+      <definition value="Identifier for this encounter"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="id"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.typeOfEncounter">
+      <path value="UnEMREncounterModel.typeOfEncounter"/>
+      <short value="Type of consultation"/>
+      <definition value="Type of medical consultation (e.g. outpatient, inpatient, emergency)"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.purposeOfEncounter">
+      <path value="UnEMREncounterModel.purposeOfEncounter"/>
+      <short value="Purpose of consulration"/>
+      <definition value="Purpose of the consultation (e.g. check-up, follow-up, new health issue)"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.dateOfEncounter">
+      <path value="UnEMREncounterModel.dateOfEncounter"/>
+      <short value="Date of the consultation"/>
+      <definition value="Date of the consultation"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.patient">
+      <path value="UnEMREncounterModel.patient"/>
+      <short value="Reference to the patient"/>
+      <definition value="Reference to the target patient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.provider">
+      <path value="UnEMREncounterModel.provider"/>
+      <short value="Reference to the provider"/>
+      <definition value="Provider who is involved with this patient consultation"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.age">
+      <path value="UnEMREncounterModel.age"/>
+      <short value="Age of the patient on consultation"/>
+      <definition value="Age of the patient during the consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.complaints">
+      <path value="UnEMREncounterModel.complaints"/>
+      <short value="Issues identified by the patient"/>
+      <definition value="Issues identified by the patient. Values are selected from SNOMED-CT or ICD-10"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems">
+      <path value="UnEMREncounterModel.reviewOfSystems"/>
+      <short value="Review of systems"/>
+      <definition value="Review of systems"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.neurologic">
+      <path value="UnEMREncounterModel.reviewOfSystems.neurologic"/>
+      <short value="Review of the neurologic system"/>
+      <definition value="Review of the neurologic system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.pulmonary">
+      <path value="UnEMREncounterModel.reviewOfSystems.pulmonary"/>
+      <short value="Review of the pulmonary system"/>
+      <definition value="Review of the pulmonary system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.cardiovascular">
+      <path value="UnEMREncounterModel.reviewOfSystems.cardiovascular"/>
+      <short value="Review of the cardiovascular system"/>
+      <definition value="Review of the cardiovascular system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.skinAndGlands">
+      <path value="UnEMREncounterModel.reviewOfSystems.skinAndGlands"/>
+      <short value="Review of the skin and glands"/>
+      <definition value="Review of the skin and glands"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gastrointestinal">
+      <path value="UnEMREncounterModel.reviewOfSystems.gastrointestinal"/>
+      <short value="Review of the gastrointestinal system"/>
+      <definition value="Review of the gastrointestinal system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.muscoloskeletal">
+      <path value="UnEMREncounterModel.reviewOfSystems.muscoloskeletal"/>
+      <short value="Review of the muscoloskeletal system"/>
+      <definition value="Review of the muscoloskeletal system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.psychiatric">
+      <path value="UnEMREncounterModel.reviewOfSystems.psychiatric"/>
+      <short value="Psychiatric review"/>
+      <definition value="Psychiatric review"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gcs">
+      <path value="UnEMREncounterModel.reviewOfSystems.gcs"/>
+      <short value="Glascow coma scale scoring"/>
+      <definition value="Glascow coma scale scoring"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse">
+      <path value="UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse"/>
+      <short value="Eye response GCS scoring"/>
+      <definition value="Eye response GCS scoring"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse">
+      <path value="UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse"/>
+      <short value="Verbal response GCS scoring"/>
+      <definition value="Verbal response GCS scoring"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.reviewOfSystems.gcs.motorResponse">
+      <path value="UnEMREncounterModel.reviewOfSystems.gcs.motorResponse"/>
+      <short value="Motor response GCS scoring"/>
+      <definition value="Motor response GCS scoring"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals">
+      <path value="UnEMREncounterModel.vitals"/>
+      <short value="Patient vital signs"/>
+      <definition value="Patient vital signs"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.temperature">
+      <path value="UnEMREncounterModel.vitals.temperature"/>
+      <short value="Patient temperature during consultation"/>
+      <definition value="Patient temperature during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.bloodPressure">
+      <path value="UnEMREncounterModel.vitals.bloodPressure"/>
+      <short value="Patient blood pressure during consultation"/>
+      <definition value="Patient blood pressure during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.pulseRate">
+      <path value="UnEMREncounterModel.vitals.pulseRate"/>
+      <short value="Patient pulse rate during consultation"/>
+      <definition value="Patient pulse rate during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.oxygenation">
+      <path value="UnEMREncounterModel.vitals.oxygenation"/>
+      <short value="Patient blood oxygenation levels during consultation"/>
+      <definition value="Patient blood oxygenation levels during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.respirationRate">
+      <path value="UnEMREncounterModel.vitals.respirationRate"/>
+      <short value="Patient respiration rate during consultation"/>
+      <definition value="Patient respiration rate during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.height">
+      <path value="UnEMREncounterModel.vitals.height"/>
+      <short value="Patient height during consultation"/>
+      <definition value="Patient height during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.weight">
+      <path value="UnEMREncounterModel.vitals.weight"/>
+      <short value="Patient weight during consultation"/>
+      <definition value="Patient weight during consultation"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.vitals.bmi">
+      <path value="UnEMREncounterModel.vitals.bmi"/>
+      <short value="Patient body mass index"/>
+      <definition value="Patient body mass index"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam">
+      <path value="UnEMREncounterModel.physicalExam"/>
+      <short value="Patient physical examination results"/>
+      <definition value="Patient physical examination results"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.heent">
+      <path value="UnEMREncounterModel.physicalExam.heent"/>
+      <short value="HEENT physical examination results"/>
+      <definition value="HEENT physical examination results"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.cardiovascular">
+      <path value="UnEMREncounterModel.physicalExam.cardiovascular"/>
+      <short value="Patient cardiovascular system"/>
+      <definition value="Physical examination results on the patient&#39;s cardiovascular system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.pulmonary">
+      <path value="UnEMREncounterModel.physicalExam.pulmonary"/>
+      <short value="Patient pulmonary system"/>
+      <definition value="Physical examination results on the patient&#39;s pulmonary system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.gastrointestinal">
+      <path value="UnEMREncounterModel.physicalExam.gastrointestinal"/>
+      <short value="Patient gastrointestinal system"/>
+      <definition value="Physical examination results on the patient&#39;s gastrointestinal system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.reproductive">
+      <path value="UnEMREncounterModel.physicalExam.reproductive"/>
+      <short value="Patient reproductive system"/>
+      <definition value="Physical examination results on the patient&#39;s reproductive system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.extremities">
+      <path value="UnEMREncounterModel.physicalExam.extremities"/>
+      <short value="Patient extremities"/>
+      <definition value="Physical examination results on the patient&#39;s extremities"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.skin">
+      <path value="UnEMREncounterModel.physicalExam.skin"/>
+      <short value="Patient skin"/>
+      <definition value="Physical examination results on the patient&#39;s skin"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.genitourinary">
+      <path value="UnEMREncounterModel.physicalExam.genitourinary"/>
+      <short value="Patient genitourinary system"/>
+      <definition value="Physical examination results on the patient&#39;s genitourinary system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.nervous">
+      <path value="UnEMREncounterModel.physicalExam.nervous"/>
+      <short value="Patient nervous system"/>
+      <definition value="Physical examination results on the patient&#39;s nervous system"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse">
+      <path value="UnEMREncounterModel.physicalExam.mse"/>
+      <short value="Patient mental state examination"/>
+      <definition value="Patient mental state examination"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.motor">
+      <path value="UnEMREncounterModel.physicalExam.mse.motor"/>
+      <short value="Patient mental motor state results"/>
+      <definition value="Patient mental motor state results"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.speech">
+      <path value="UnEMREncounterModel.physicalExam.mse.speech"/>
+      <short value="Patient speech"/>
+      <definition value="Patient speech"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.affect">
+      <path value="UnEMREncounterModel.physicalExam.mse.affect"/>
+      <short value="Patient mental affect"/>
+      <definition value="Patient mental affect"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.thoughtContent">
+      <path value="UnEMREncounterModel.physicalExam.mse.thoughtContent"/>
+      <short value="Patient thought content"/>
+      <definition value="Patient thought content"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.thoughtProcess">
+      <path value="UnEMREncounterModel.physicalExam.mse.thoughtProcess"/>
+      <short value="Patient thought process"/>
+      <definition value="Patient thought process"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.perception">
+      <path value="UnEMREncounterModel.physicalExam.mse.perception"/>
+      <short value="Patient perception"/>
+      <definition value="Patient perception"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.intellect">
+      <path value="UnEMREncounterModel.physicalExam.mse.intellect"/>
+      <short value="Patient intellectual"/>
+      <definition value="Patient intellectual"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.physicalExam.mse.insight">
+      <path value="UnEMREncounterModel.physicalExam.mse.insight"/>
+      <short value="Patient insight"/>
+      <definition value="Patient insight"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.confidentialNotes">
+      <path value="UnEMREncounterModel.confidentialNotes"/>
+      <short value="Additional confidential or phychiatric-medicolegal notes"/>
+      <definition value="Additional confidential or phychiatric-medicolegal notes"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.procedures">
+      <path value="UnEMREncounterModel.procedures"/>
+      <short value="Patient treatment plan and procedures"/>
+      <definition value="Patient treatment plan and procedures. Values may be selected from SNOMED-CT"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.prescriptions">
+      <path value="UnEMREncounterModel.prescriptions"/>
+      <short value="Medication prescribed by the provider to the patient"/>
+      <definition value="Medication prescribed by the provider to the patient. Values may be selected from SNOMED-CT"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.outcomeOfTreatment">
+      <path value="UnEMREncounterModel.outcomeOfTreatment"/>
+      <short value="Describes whether the treatment was successful or not"/>
+      <definition value="Describes whether the treatment was successful or not. Options are either positive, negative, or no change"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog">
+      <path value="UnEMREncounterModel.auditLog"/>
+      <short value="Record audit log"/>
+      <definition value="Record audit log"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog.createdBy">
+      <path value="UnEMREncounterModel.auditLog.createdBy"/>
+      <short value="Person who created the record"/>
+      <definition value="Person who created the encounter record"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog.dateCreated">
+      <path value="UnEMREncounterModel.auditLog.dateCreated"/>
+      <short value="Date when the encounter record was created"/>
+      <definition value="Date when the encounter record was created"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog.lastUpdatedBy">
+      <path value="UnEMREncounterModel.auditLog.lastUpdatedBy"/>
+      <short value="Person who recently updated the record"/>
+      <definition value="Person who recently updated the record"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="UnEMREncounterModel.auditLog.dateLastUpdated">
+      <path value="UnEMREncounterModel.auditLog.dateLastUpdated"/>
+      <short value="Date when the encounter record last updated"/>
+      <definition value="Date when the encounter record last updated"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

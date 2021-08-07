@@ -1,0 +1,36 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"UnEMRProviderModel","","","",0,*,"","","","","UnEMR Provider Logical Model","Provider data model implemented in UnEMR","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"UnEMRProviderModel.providerId","","","",1,1,"","","","id {[]} {[]}
+","Provider identifier","Provider identifier","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.providerId",1,1,"",""
+"UnEMRProviderModel.userStatus","","","",1,1,"","","","string {[]} {[]}
+","Provider account status","Provider account status (e.g. active, inactive, pending approval)","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.userStatus",1,1,"",""
+"UnEMRProviderModel.name","","","",1,1,"","","","HumanName {[]} {[]}
+","Name of the provider","Name of the provider","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.name",1,1,"",""
+"UnEMRProviderModel.email","","","",1,1,"","","","string {[]} {[]}
+","Email address of the provider","Email address of the provider","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.email",1,1,"",""
+"UnEMRProviderModel.phone","","","",0,1,"","","","string {[]} {[]}
+","Phone number of the provider","Phone number of the provider","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.phone",0,1,"",""
+"UnEMRProviderModel.dateOfBirth","","","",0,1,"","","","dateTime {[]} {[]}
+","Birthday of the provider","Birthday of the provider","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.dateOfBirth",0,1,"",""
+"UnEMRProviderModel.licenseNumber","","","",1,1,"","","","string {[]} {[]}
+","License number of the provider","Valid license number of the provider. Provider must provide proof of validity","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.licenseNumber",1,1,"",""
+"UnEMRProviderModel.licenseExpiration","","","",1,1,"","","","dateTime {[]} {[]}
+","Expiration date of the license number","Expiration date of the license number","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.licenseExpiration",1,1,"",""
+"UnEMRProviderModel.licenseIssuedBy","","","",0,1,"","","","string {[]} {[]}
+","Organization who issued the license","Organization who issued the license","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.licenseIssuedBy",0,1,"",""
+"UnEMRProviderModel.currentPtrNumber","","","",1,1,"","","","string {[]} {[]}
+","Current PTR number of the provider","Current PTR number of the provider","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.currentPtrNumber",1,1,"",""
+"UnEMRProviderModel.fieldOfPractice","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Provider field of practice","Provider field of practice","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.fieldOfPractice",0,*,"",""
+"UnEMRProviderModel.specialization","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Specialization of the provider","Specialization of the provider","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.specialization",0,*,"",""
+"UnEMRProviderModel.auditLog","","","",1,1,"","","","BackboneElement {[]} {[]}
+","Record audit log","Record audit log","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.auditLog",1,1,"",""
+"UnEMRProviderModel.auditLog.createdBy","","","",1,1,"","","","Reference {[]} {[]}
+","Person who created the record","Person who created the provider record","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.auditLog.createdBy",1,1,"",""
+"UnEMRProviderModel.auditLog.dateCreated","","","",1,1,"","","","dateTime {[]} {[]}
+","Date when the patient record was created","Date when the patient record was created","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.auditLog.dateCreated",1,1,"",""
+"UnEMRProviderModel.auditLog.lastUpdatedBy","","","",1,1,"","","","Reference {[]} {[]}
+","Person who recently updated the record","Person who recently updated the record","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.auditLog.lastUpdatedBy",1,1,"",""
+"UnEMRProviderModel.auditLog.dateLastUpdated","","","",1,1,"","","","dateTime {[]} {[]}
+","Date when the patient record last updated","Date when the patient record last updated","","","","","","","","","",,,,,"",,,,"UnEMRProviderModel.auditLog.dateLastUpdated",1,1,"",""
