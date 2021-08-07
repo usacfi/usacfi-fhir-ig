@@ -7,11 +7,25 @@
     "name": "USACFIIG"
   },
   {
-    "id": "PatientEncounterModel",
+    "id": "UnEMREncounterModel",
     "type": "StructureDefinition",
-    "url": "http://fhir.usacfi.net/StructureDefinition/PatientEncounterModel",
+    "url": "http://fhir.usacfi.net/StructureDefinition/UnEMREncounterModel",
     "version": "0.1.0-test",
-    "name": "PatientEncounterModel"
+    "name": "UnEMREncounterModel"
+  },
+  {
+    "id": "UnEMRPatientModel",
+    "type": "StructureDefinition",
+    "url": "http://fhir.usacfi.net/StructureDefinition/UnEMRPatientModel",
+    "version": "0.1.0-test",
+    "name": "UnEMRPatientModel"
+  },
+  {
+    "id": "UnEMRProviderModel",
+    "type": "StructureDefinition",
+    "url": "http://fhir.usacfi.net/StructureDefinition/UnEMRProviderModel",
+    "version": "0.1.0-test",
+    "name": "UnEMRProviderModel"
   },
   {
     "id": "ObservationVitalsSignsVS",

@@ -1,19 +1,27 @@
 ﻿USACFIIG : Validation Results
 =========================================
 
-err = 1, warn = 3, info = 0
+err = 3, warn = 5, info = 0
 IG Publisher Version: 1.1.77
-Generated Fri Aug 06 22:01:14 UTC 2021. FHIR version 4.0.1 for usacfi-fhir#0.1.0-test (canonical = http://fhir.usacfi.net)
+Generated Sat Aug 07 00:05:18 UTC 2021. FHIR version 4.0.1 for usacfi-fhir#0.1.0-test (canonical = http://fhir.usacfi.net)
 
  Build Errors : 0 / 0 / 0
- /github/workspace/fsh-generated/resources/StructureDefinition-PatientEncounterModel : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-UnEMREncounterModel : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-UnEMRPatientModel : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-UnEMRProviderModel : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-ObservationVitalsSignsVS : 0 / 2 / 1
  /github/workspace/input/usacfi-ig : 0 / 0 / 1
 </table>
 == n/a ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-PatientEncounterModel.json ==
-ERROR: StructureDefinition/PatientEncounterModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
-WARNING: StructureDefinition/PatientEncounterModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== /github/workspace/fsh-generated/resources/StructureDefinition-UnEMREncounterModel.json ==
+ERROR: StructureDefinition/UnEMREncounterModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/UnEMREncounterModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== /github/workspace/fsh-generated/resources/StructureDefinition-UnEMRPatientModel.json ==
+ERROR: StructureDefinition/UnEMRPatientModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/UnEMRPatientModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== /github/workspace/fsh-generated/resources/StructureDefinition-UnEMRProviderModel.json ==
+ERROR: StructureDefinition/UnEMRProviderModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/UnEMRProviderModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
 == /github/workspace/fsh-generated/resources/ValueSet-ObservationVitalsSignsVS.json ==
 WARNING: ValueSet/ObservationVitalsSignsVS: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
 WARNING: ValueSet.where(id = 'ObservationVitalsSignsVS'): Error from server: Unable to provide support for code system https://loinc.org

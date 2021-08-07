@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "USA-CFI FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-08-06T22:01:02+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-08-07T00:05:05+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "University of San Agustin - Center for Informatics"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -317,13 +317,39 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.usacfi.net/StructureDefinition/PatientEncounterModel>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/PatientEncounterModel" ]
+         fhir:link <http://fhir.usacfi.net/StructureDefinition/UnEMREncounterModel>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UnEMREncounterModel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Encounter Logical Model" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Logical model describing a basic patient encounter/consultation workflow generally implemented by the EMR/MRS technologies supported" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UnEMR Encounter Logical Model" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Encounter data model implemented in UnEMR" ]
      ], [
        fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.usacfi.net/StructureDefinition/UnEMRPatientModel>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UnEMRPatientModel" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UnEMR Patient Logical Model" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient data model implemented in UnEMR" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.usacfi.net/StructureDefinition/UnEMRProviderModel>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UnEMRProviderModel" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UnEMR Provider Logical Model" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Provider data model implemented in UnEMR" ]
+     ], [
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

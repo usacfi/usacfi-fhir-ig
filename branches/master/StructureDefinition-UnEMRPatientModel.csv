@@ -1,0 +1,60 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"UnEMRPatientModel","","","",0,*,"","","","","UnEMR Patient Logical Model","Patient data model implemented in UnEMR","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"UnEMRPatientModel.patientId","","","",1,1,"","","","id {[]} {[]}
+","Patient identifier","Patient identifier","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.patientId",1,1,"",""
+"UnEMRPatientModel.userStatus","","","",1,1,"","","","string {[]} {[]}
+","Patient status","Patient status (e.g. active, inactive, pending approval)","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.userStatus",1,1,"",""
+"UnEMRPatientModel.name","","","",1,1,"","","","HumanName {[]} {[]}
+","Name of patient","Name of patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.name",1,1,"",""
+"UnEMRPatientModel.email","","","",1,1,"","","","string {[]} {[]}
+","Email of patient","Email of patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.email",1,1,"",""
+"UnEMRPatientModel.phone","","","",0,1,"","","","string {[]} {[]}
+","Phone number of patient","Phone number of patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.phone",0,1,"",""
+"UnEMRPatientModel.sex","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Gender of the patient","Gender of the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.sex",0,1,"",""
+"UnEMRPatientModel.dateOfBirth","","","",1,1,"","","","dateTime {[]} {[]}
+","Birthday of the patient","Birthday of the patient. Required for the calculation of age","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.dateOfBirth",1,1,"",""
+"UnEMRPatientModel.address","","","",0,1,"","","","Address {[]} {[]}
+","Address of the patient","Defines where the patient resides","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.address",0,1,"",""
+"UnEMRPatientModel.emergencyContact","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Emergency contact of the patient","Person identified as emergency contact of the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.emergencyContact",0,1,"",""
+"UnEMRPatientModel.emergencyContact.emergencyContactName","","","",0,1,"","","","HumanName {[]} {[]}
+","Name of the emergency contact","Name of the emergency contact","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.emergencyContact.emergencyContactName",0,1,"",""
+"UnEMRPatientModel.emergencyContact.emergencyContactRelationship","","","",0,1,"","","","string {[]} {[]}
+","Relationship of the contact to the patient","Relationship of the contact to the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.emergencyContact.emergencyContactRelationship",0,1,"",""
+"UnEMRPatientModel.emergencyContact.emergencyContactAddress","","","",0,1,"","","","Address {[]} {[]}
+","Address of the contact","Address of the emergency contact person","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.emergencyContact.emergencyContactAddress",0,1,"",""
+"UnEMRPatientModel.emergencyContact.emergencyContactPhone","","","",0,1,"","","","string {[]} {[]}
+","Phone number of the contact","Phone number of the emergency contact person","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.emergencyContact.emergencyContactPhone",0,1,"",""
+"UnEMRPatientModel.emergencyContact.emergencyContactEmail","","","",0,1,"","","","string {[]} {[]}
+","Email address of the contact","Email address of the emergency contact person","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.emergencyContact.emergencyContactEmail",0,1,"",""
+"UnEMRPatientModel.provider","","","",0,1,"","","","Reference {[]} {[]}
+","The provider handling the patient","The provider handling the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.provider",0,1,"",""
+"UnEMRPatientModel.providerReferral","","","",0,1,"","","","Reference {[]} {[]}
+","Provider referred by primary provider","The provider referred by the primary provider to handle the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.providerReferral",0,1,"",""
+"UnEMRPatientModel.providerSelfReferral","","","",0,1,"","","","Reference {[]} {[]}
+","Provider referred by the patient","The provider chosen by the patient for consultation. The provider is chosen from a list of providers accessible to the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.providerSelfReferral",0,1,"",""
+"UnEMRPatientModel.referralNotes","","","",0,*,"","","","string {[]} {[]}
+","Notes describing the referral","Notes describing the referral","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.referralNotes",0,*,"",""
+"UnEMRPatientModel.allergies","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Allergies of the patient","Allergies of the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.allergies",0,*,"",""
+"UnEMRPatientModel.immunizations","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Immunization history of the patient","Immunization history of the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.immunizations",0,*,"",""
+"UnEMRPatientModel.medications","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Medication history of the patient","History of medications taken by the patient relevant to the current consultation","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.medications",0,*,"",""
+"UnEMRPatientModel.patientNotes","","","",0,*,"","","","string {[]} {[]}
+","Additional notes about the patient","Additional notes about the patient","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.patientNotes",0,*,"",""
+"UnEMRPatientModel.comments","","","",0,*,"","","","string {[]} {[]}
+","Additional comments regarding this patient record","Additional comments regarding this patient record","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.comments",0,*,"",""
+"UnEMRPatientModel.consent","","","",1,1,"","","","Reference {[]} {[]}
+","Patient consent information","Consent agreed upon by the patient regarding their patient data","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.consent",1,1,"",""
+"UnEMRPatientModel.auditLog","","","",1,1,"","","","BackboneElement {[]} {[]}
+","Record audit log","Record audit log","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.auditLog",1,1,"",""
+"UnEMRPatientModel.auditLog.createdBy","","","",1,1,"","","","Reference {[]} {[]}
+","Person who created the record","Person who created the patient record","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.auditLog.createdBy",1,1,"",""
+"UnEMRPatientModel.auditLog.dateCreated","","","",1,1,"","","","dateTime {[]} {[]}
+","Date when the patient record was created","Date when the patient record was created","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.auditLog.dateCreated",1,1,"",""
+"UnEMRPatientModel.auditLog.lastUpdatedBy","","","",1,1,"","","","Reference {[]} {[]}
+","Person who recently updated the record","Person who recently updated the record","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.auditLog.lastUpdatedBy",1,1,"",""
+"UnEMRPatientModel.auditLog.dateLastUpdated","","","",1,1,"","","","dateTime {[]} {[]}
+","Date when the patient record last updated","Date when the patient record last updated","","","","","","","","","",,,,,"",,,,"UnEMRPatientModel.auditLog.dateLastUpdated",1,1,"",""

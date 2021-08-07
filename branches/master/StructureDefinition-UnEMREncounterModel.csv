@@ -1,0 +1,116 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"UnEMREncounterModel","","","",0,*,"","","","","UnEMR Encounter Logical Model","Encounter data model implemented in UnEMR","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"UnEMREncounterModel.encounterId","","","",1,1,"","","","id {[]} {[]}
+","Identifier for this encounter","Identifier for this encounter","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.encounterId",1,1,"",""
+"UnEMREncounterModel.typeOfEncounter","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Type of consultation","Type of medical consultation (e.g. outpatient, inpatient, emergency)","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.typeOfEncounter",0,1,"",""
+"UnEMREncounterModel.purposeOfEncounter","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Purpose of consulration","Purpose of the consultation (e.g. check-up, follow-up, new health issue)","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.purposeOfEncounter",0,1,"",""
+"UnEMREncounterModel.dateOfEncounter","","","",1,1,"","","","dateTime {[]} {[]}
+","Date of the consultation","Date of the consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.dateOfEncounter",1,1,"",""
+"UnEMREncounterModel.patient","","","",1,1,"","","","Reference {[]} {[]}
+","Reference to the patient","Reference to the target patient","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.patient",1,1,"",""
+"UnEMREncounterModel.provider","","","",1,1,"","","","Reference {[]} {[]}
+","Reference to the provider","Provider who is involved with this patient consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.provider",1,1,"",""
+"UnEMREncounterModel.age","","","",0,1,"","","","integer {[]} {[]}
+","Age of the patient on consultation","Age of the patient during the consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.age",0,1,"",""
+"UnEMREncounterModel.complaints","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Issues identified by the patient","Issues identified by the patient. Values are selected from SNOMED-CT or ICD-10","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.complaints",0,*,"",""
+"UnEMREncounterModel.reviewOfSystems","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Review of systems","Review of systems","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.neurologic","","","",0,1,"","","","string {[]} {[]}
+","Review of the neurologic system","Review of the neurologic system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.neurologic",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.pulmonary","","","",0,1,"","","","string {[]} {[]}
+","Review of the pulmonary system","Review of the pulmonary system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.pulmonary",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.cardiovascular","","","",0,1,"","","","string {[]} {[]}
+","Review of the cardiovascular system","Review of the cardiovascular system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.cardiovascular",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.skinAndGlands","","","",0,1,"","","","string {[]} {[]}
+","Review of the skin and glands","Review of the skin and glands","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.skinAndGlands",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.gastrointestinal","","","",0,1,"","","","string {[]} {[]}
+","Review of the gastrointestinal system","Review of the gastrointestinal system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.gastrointestinal",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.muscoloskeletal","","","",0,1,"","","","string {[]} {[]}
+","Review of the muscoloskeletal system","Review of the muscoloskeletal system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.muscoloskeletal",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.psychiatric","","","",0,1,"","","","string {[]} {[]}
+","Psychiatric review","Psychiatric review","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.psychiatric",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.gcs","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Glascow coma scale scoring","Glascow coma scale scoring","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.gcs",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse","","","",0,1,"","","","string {[]} {[]}
+","Eye response GCS scoring","Eye response GCS scoring","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.gcs.eyeResponse",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse","","","",0,1,"","","","string {[]} {[]}
+","Verbal response GCS scoring","Verbal response GCS scoring","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.gcs.verbalResponse",0,1,"",""
+"UnEMREncounterModel.reviewOfSystems.gcs.motorResponse","","","",0,1,"","","","string {[]} {[]}
+","Motor response GCS scoring","Motor response GCS scoring","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.reviewOfSystems.gcs.motorResponse",0,1,"",""
+"UnEMREncounterModel.vitals","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Patient vital signs","Patient vital signs","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals",0,1,"",""
+"UnEMREncounterModel.vitals.temperature","","","",0,1,"","","","string {[]} {[]}
+","Patient temperature during consultation","Patient temperature during consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals.temperature",0,1,"",""
+"UnEMREncounterModel.vitals.bloodPressure","","","",0,1,"","","","string {[]} {[]}
+","Patient blood pressure during consultation","Patient blood pressure during consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals.bloodPressure",0,1,"",""
+"UnEMREncounterModel.vitals.pulseRate","","","",0,1,"","","","string {[]} {[]}
+","Patient pulse rate during consultation","Patient pulse rate during consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals.pulseRate",0,1,"",""
+"UnEMREncounterModel.vitals.oxygenation","","","",0,1,"","","","string {[]} {[]}
+","Patient blood oxygenation levels during consultation","Patient blood oxygenation levels during consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals.oxygenation",0,1,"",""
+"UnEMREncounterModel.vitals.respirationRate","","","",0,1,"","","","string {[]} {[]}
+","Patient respiration rate during consultation","Patient respiration rate during consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals.respirationRate",0,1,"",""
+"UnEMREncounterModel.vitals.height","","","",0,1,"","","","string {[]} {[]}
+","Patient height during consultation","Patient height during consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals.height",0,1,"",""
+"UnEMREncounterModel.vitals.weight","","","",0,1,"","","","string {[]} {[]}
+","Patient weight during consultation","Patient weight during consultation","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals.weight",0,1,"",""
+"UnEMREncounterModel.vitals.bmi","","","",0,1,"","","","integer {[]} {[]}
+","Patient body mass index","Patient body mass index","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.vitals.bmi",0,1,"",""
+"UnEMREncounterModel.physicalExam","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Patient physical examination results","Patient physical examination results","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam",0,1,"",""
+"UnEMREncounterModel.physicalExam.heent","","","",0,1,"","","","string {[]} {[]}
+","HEENT physical examination results","HEENT physical examination results","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.heent",0,1,"",""
+"UnEMREncounterModel.physicalExam.cardiovascular","","","",0,1,"","","","string {[]} {[]}
+","Patient cardiovascular system","Physical examination results on the patient's cardiovascular system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.cardiovascular",0,1,"",""
+"UnEMREncounterModel.physicalExam.pulmonary","","","",0,1,"","","","string {[]} {[]}
+","Patient pulmonary system","Physical examination results on the patient's pulmonary system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.pulmonary",0,1,"",""
+"UnEMREncounterModel.physicalExam.gastrointestinal","","","",0,1,"","","","string {[]} {[]}
+","Patient gastrointestinal system","Physical examination results on the patient's gastrointestinal system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.gastrointestinal",0,1,"",""
+"UnEMREncounterModel.physicalExam.reproductive","","","",0,1,"","","","string {[]} {[]}
+","Patient reproductive system","Physical examination results on the patient's reproductive system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.reproductive",0,1,"",""
+"UnEMREncounterModel.physicalExam.extremities","","","",0,1,"","","","string {[]} {[]}
+","Patient extremities","Physical examination results on the patient's extremities","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.extremities",0,1,"",""
+"UnEMREncounterModel.physicalExam.skin","","","",0,1,"","","","string {[]} {[]}
+","Patient skin","Physical examination results on the patient's skin","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.skin",0,1,"",""
+"UnEMREncounterModel.physicalExam.genitourinary","","","",0,1,"","","","string {[]} {[]}
+","Patient genitourinary system","Physical examination results on the patient's genitourinary system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.genitourinary",0,1,"",""
+"UnEMREncounterModel.physicalExam.nervous","","","",0,1,"","","","string {[]} {[]}
+","Patient nervous system","Physical examination results on the patient's nervous system","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.nervous",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Patient mental state examination","Patient mental state examination","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse.motor","","","",0,1,"","","","string {[]} {[]}
+","Patient mental motor state results","Patient mental motor state results","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse.motor",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse.speech","","","",0,1,"","","","string {[]} {[]}
+","Patient speech","Patient speech","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse.speech",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse.affect","","","",0,1,"","","","string {[]} {[]}
+","Patient mental affect","Patient mental affect","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse.affect",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse.thoughtContent","","","",0,1,"","","","string {[]} {[]}
+","Patient thought content","Patient thought content","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse.thoughtContent",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse.thoughtProcess","","","",0,1,"","","","string {[]} {[]}
+","Patient thought process","Patient thought process","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse.thoughtProcess",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse.perception","","","",0,1,"","","","string {[]} {[]}
+","Patient perception","Patient perception","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse.perception",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse.intellect","","","",0,1,"","","","string {[]} {[]}
+","Patient intellectual","Patient intellectual","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse.intellect",0,1,"",""
+"UnEMREncounterModel.physicalExam.mse.insight","","","",0,1,"","","","string {[]} {[]}
+","Patient insight","Patient insight","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.physicalExam.mse.insight",0,1,"",""
+"UnEMREncounterModel.confidentialNotes","","","",0,1,"","","","string {[]} {[]}
+","Additional confidential or phychiatric-medicolegal notes","Additional confidential or phychiatric-medicolegal notes","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.confidentialNotes",0,1,"",""
+"UnEMREncounterModel.procedures","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Patient treatment plan and procedures","Patient treatment plan and procedures. Values may be selected from SNOMED-CT","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.procedures",0,*,"",""
+"UnEMREncounterModel.prescriptions","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Medication prescribed by the provider to the patient","Medication prescribed by the provider to the patient. Values may be selected from SNOMED-CT","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.prescriptions",0,*,"",""
+"UnEMREncounterModel.outcomeOfTreatment","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Describes whether the treatment was successful or not","Describes whether the treatment was successful or not. Options are either positive, negative, or no change","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.outcomeOfTreatment",0,1,"",""
+"UnEMREncounterModel.auditLog","","","",1,1,"","","","BackboneElement {[]} {[]}
+","Record audit log","Record audit log","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.auditLog",1,1,"",""
+"UnEMREncounterModel.auditLog.createdBy","","","",1,1,"","","","Reference {[]} {[]}
+","Person who created the record","Person who created the encounter record","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.auditLog.createdBy",1,1,"",""
+"UnEMREncounterModel.auditLog.dateCreated","","","",1,1,"","","","dateTime {[]} {[]}
+","Date when the encounter record was created","Date when the encounter record was created","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.auditLog.dateCreated",1,1,"",""
+"UnEMREncounterModel.auditLog.lastUpdatedBy","","","",1,1,"","","","Reference {[]} {[]}
+","Person who recently updated the record","Person who recently updated the record","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.auditLog.lastUpdatedBy",1,1,"",""
+"UnEMREncounterModel.auditLog.dateLastUpdated","","","",1,1,"","","","dateTime {[]} {[]}
+","Date when the encounter record last updated","Date when the encounter record last updated","","","","","","","","","",,,,,"",,,,"UnEMREncounterModel.auditLog.dateLastUpdated",1,1,"",""

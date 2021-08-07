@@ -3,9 +3,9 @@
   "name": "USACFIIG",
   "package-id": "usacfi-fhir",
   "ig-ver": "0.1.0-test",
-  "date": "Fri, 06 Aug, 2021 22:01:02 +0000",
-  "errs": 1,
-  "warnings": 3,
+  "date": "Sat, 07 Aug, 2021 00:05:05 +0000",
+  "errs": 3,
+  "warnings": 5,
   "hints": 0,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
